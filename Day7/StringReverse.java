@@ -16,9 +16,11 @@ public class Solution {
         char s = A.charAt(i);
         rev = s+rev;
     }
+        
         if(rev.compareTo(A)==0){
         System.out.println("Yes");
-        }else System.out.println("No");
+        } 
+        else System.out.println("No");
     
       }
       
