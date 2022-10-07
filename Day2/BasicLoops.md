@@ -18,6 +18,7 @@ Sample Input:
 2
 
 Sample Output:
+
 2 x 1 = 2
 
 2 x 2 = 4
