@@ -11,14 +11,16 @@ madam
 Sample Output
 Yes
 
-Example 1:
-Input: s = "A man, a plan, a canal: Panama"
+1. Example 1:
+Input: A = "A man, a plan, a canal: Panama"
 Output: true
 Explanation: "amanaplanacanalpanama" is a palindrome.
-Example 2:
-Input: s = "race a car"
+
+2. Example 2:
+Input: A = "race a car"
 Output: false
 Explanation: "raceacar" is not a palindrome.
-Example 3:
-Input: s = " "
+
+3. Example 3:
+Input: A = " "
 Output: true
