@@ -5,10 +5,10 @@ Given a string A, print Yes if it is a palindrome, print No otherwise.
 Constraints
 A will consist at most 50 lower case english letters.
 
-Sample Input
+Sample Input:
 madam
 
-Sample Output
+Sample Output:
 Yes
 
 1. Example 1:
