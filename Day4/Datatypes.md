@@ -19,7 +19,7 @@ For each input variable n and appropriate primitive dataType , you must determin
 
 n can be fitted in:
 * dataType
-* 
+
 If there is more than one appropriate data type, print each one on its own line and order them by size (i.e.: byte < short < int < long).
 
 If the number cannot be stored in one of the four aforementioned primitives, print the line:
@@ -41,6 +41,7 @@ Sample Input:
 -100000000000000
 
 
+
 Sample Output:
 
 -150 can be fitted in:
@@ -51,11 +52,13 @@ Sample Output:
 
 * long
 
+
 150000 can be fitted in:
 
 * int
 
 * long
+
 
 1500000000 can be fitted in:
 
@@ -63,9 +66,11 @@ Sample Output:
 
 * long
 
+
 213333333333333333333333333333333333 can't be fitted anywhere.
 
 -100000000000000 can be fitted in:
+
 * long
 
 Explanation:
