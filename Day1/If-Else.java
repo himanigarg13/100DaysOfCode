@@ -1,4 +1,4 @@
-/*In this challenge, we test your knowledge of using if-else conditional statements to automate decision-making processes.
+/*In this challenge, we test knowledge of using if-else conditional statements to automate decision-making processes.
 Task
 Given an integer n, perform the following conditional actions:
 
