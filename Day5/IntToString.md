@@ -12,7 +12,8 @@ The Integer class has a static method that returns a String object representing 
 The argument is converted and returned as a string instance. If the number is negative, the sign will be preserved. 
 
 Logic :
-In this program, we simply used a simple function () to convert int to String type and then it prints good job.
+
+In this program, we simply used a simple function ( Integer.toString(n)) to convert int to String type and then it prints good job.
 
 
 Sample Input 0:
