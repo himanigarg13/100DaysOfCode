@@ -6,14 +6,12 @@ An int is a 32-bit signed integer.
 A long is a 64-bit signed integer.
 Given an input integer, you must determine which primitive data types are capable of properly storing that input.
 
-To get you started, a portion of the solution is provided for you in the editor.
-
-Input Format:
+Input:
 
 The first line contains an integer,T, denoting the number of test cases.
 Each test case,T , is comprised of a single line with an integer,n, which can be arbitrarily large or small.
 
-Output Format:
+Output:
 
 For each input variable n and appropriate primitive dataType , you must determine if the given primitives are capable of storing it. If yes, then print:
 
@@ -26,55 +24,11 @@ If the number cannot be stored in one of the four aforementioned primitives, pri
 
 n can't be fitted anywhere.
 
-Sample Input:
+Logic: 
 
-5
+1. First we create the main class of name Datatypes.
 
--150
-
-150000
-
-1500000000
-
-213333333333333333333333333333333333
-
--100000000000000
+2. We put the range of datatypes in if condition in which between thet lie and print the datatypes like byte, int, short, long.
 
 
 
-Sample Output:
-
--150 can be fitted in:
-
-* short
-
-* int
-
-* long
-
-
-150000 can be fitted in:
-
-* int
-
-* long
-
-
-1500000000 can be fitted in:
-
-* int
-
-* long
-
-
-213333333333333333333333333333333333 can't be fitted anywhere.
-
--100000000000000 can be fitted in:
-
-* long
-
-Explanation:
-
--150 can be stored in a short, an int, or a long.
-
- 21333333333333333333333333333333333333333333 is very large and is outside of the allowable range of values for the primitive data types discussed in this problem.
