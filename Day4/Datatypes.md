@@ -28,7 +28,7 @@ Logic:
 
 1. First we create the main class of name Datatypes.
 
-2. We put the range of datatypes in if condition in which between thet lie and print the datatypes like byte, int, short, long.
+2. We put the range of datatypes in if condition in which between they lie and print the datatypes like byte, int, short, long.
 
 
 
