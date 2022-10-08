@@ -1,5 +1,5 @@
-In this challenge, we test your knowledge of using if-else conditional statements to automate decision-making processes. An if-else statement has the following logical flow:
-Task
+Question:
+
 Given an integer n,  perform the following conditional actions:
 
 If n is odd, print Weird
@@ -10,49 +10,17 @@ If n is even and in the inclusive range of 6 to 20, print Weird
 
 If n is even and greater than 20 , print Not Weird
 
-Complete the stub code provided in your editor to print whether or not n is weird.
 
+Logic :
 
-Input Format:
+1. Firstly, we create java IfElse1 class and initialize the main class.
 
-A single line containing a positive integer, n .
+2. Import java packages and create an object for input from user by using Scanner class.
 
-Constraints:
+3. Store user input value in variable 'a' of integer type.
 
-1 <= n <= 100
+3. Now, build a logic for 'Weird' and 'Not Weird'.
 
-Output Format:
+4. If 'a' is 'not equal to' 2 or 'equals to ' and range between 6 <= a <= 20 then print "Weird".
 
-Print Weird if the number is weird; otherwise, print Not Weird.
-
-Sample Input 0:
-
-3
-
-Sample Output 0:
-
-Weird
-
-Sample Input 1:
-
-24
-
-Sample Output 1:
-
-Not Weird
-
-Explanation:
-
-Sample Case 0: 
-
-n=3, n is odd and odd numbers are weird, so we print Weird.
-
-Sample Case 1: 
-
-n = 24, n >20 and n is even, so it isn't weird. Thus, we print Not Weird.
-
-Language
-
-Java 7
-
-
+5. If 'a' is 'equals to' to 2 and range between 2 <= a <= 5 or a>= 20 then print "Not Weird".
