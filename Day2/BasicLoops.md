@@ -14,6 +14,18 @@ Output Format:
 Print 10 lines of output; each line i (where 1 <= i <= 10) contains the results of N * i in the form:
 N x i = result.
 
+Logic:
+
+1. First we create the main class of name BasicLoops.
+
+2. Now it takes input value from user to print the table.
+
+3. Now we use for loop to print the table.
+
+4. Logic of table : N = user input, i = how many times loops run , and create an integer value result for result = N * i.
+
+5. Then print the value in form of table : N + "x" + i + "=" result.
+
 Sample Input:
 2
 
