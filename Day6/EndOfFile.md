@@ -16,6 +16,16 @@ Output Format:
 
 For each line, print the line number, followed by a single space, and then the line content received as input.
 
+LOGIC :
+
+1. Create the main class.
+
+
+2. Taking input from user.
+
+
+3. Using while loop for print the String in three new lines with bullet numbers.
+
 
 Sample Input:
 
