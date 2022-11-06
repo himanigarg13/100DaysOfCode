@@ -1,3 +1,6 @@
+/* You have to create another class that extends the abstract class. Then you can create an instance of the new class.
+Notice that setTitle method is abstract too and has no body. That means you must implement the body of that method in the child class.*/
+
 import java.util.*;
 abstract class Book{
 	String title;
