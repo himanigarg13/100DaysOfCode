@@ -41,6 +41,6 @@ false
 
 true
 
-Logic: 
+
 
 In Java, Stack is a class that falls under the Collection framework that extends the Vector class. It also implements interfaces List, Collection, Iterable, Cloneable, Serializable. It represents the LIFO stack of objects. Before using the Stack class, we must import the java.util package.
